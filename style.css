@@ -1,0 +1,57 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+  h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+
+.card{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.28);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.7px);
+-webkit-backdrop-filter: blur(4.7px);
+border: 1px solid rgba(255, 255, 255, 0.26);
+text-align: center;
+padding: 50px 50px;
+width: 70%;
+margin: 30px auto;
+-webkit-transition: .3s ease-in-out;
+ transition: .3s ease-in-out;
+
+
+}
+
+.foto{
+    width: 30%;
+    border-radius: 20%;
+}
+
+a img{
+    width: 40px;
+    margin: 10px 15px;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+a img:hover{
+    opacity: .5;
+    
+}
+
+.card:hover {
+    background: rgba(255, 255, 255, 0.62);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    cursor: pointer;
+    \
+    }
